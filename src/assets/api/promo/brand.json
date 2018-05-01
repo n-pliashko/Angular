@@ -1,0 +1,29 @@
+{
+  "number": 1,
+  "name": "Vip Brand",
+  "rule": [],
+  "date_start": "2010-01-01",
+  "date_end": null,
+  "amount": 10,
+  "perc": true,
+  "sum": true,
+  "codes": [],
+  "active": true,
+  "domains": [
+    "TestSSv4 (new.ajax.selectspecs.com)",
+    "SelectSpecs.com (selectspecs.com)",
+    "SelectSpecs AU (au.selectspecs.com)",
+    "SelectSpecs CA (ca.selectspecs.com)",
+    "SelectSpecs DE (de.selectspecs.com)",
+    "SelectSpecs.com Store (storedis001.selectspecs.com)",
+    "SelectSpecs.com Store (storegen001.selectspecs.com)"
+  ],
+  "target": "order",
+  "brand": {
+    "target_designer": 368,
+    "target_type": "item",
+    "target_item": -1,
+    "discount_designer": 111,
+    "discount_item": -1
+  }
+}

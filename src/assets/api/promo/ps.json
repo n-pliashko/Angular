@@ -1,0 +1,9 @@
+[
+  {"number": "1", "name": "PayPal"},
+  {"number": "2", "name": "WorldPay"},
+  {"number": "4", "name": "Amazon"},
+  {"number": "5", "name": "Cheque"},
+  {"number": "9", "name": "Cash"},
+  {"number": "10", "name": "Card"},
+  {"number": "11", "name": "FreeOrder"}
+]

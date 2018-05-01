@@ -1,0 +1,196 @@
+{
+  "recordsTotal": 0,
+  "recordsFiltered": 0,
+  "data": [
+    {
+      "_id": 1,
+      "__service": {
+        "created": "2017-01-01 00:00:01",
+        "updated": "2017-01-01 00:00:01"
+      },
+      "number": 1,
+      "currency_name": "GBP",
+      "code": "gbp",
+      "iso": 826,
+      "symbol": "&pound;",
+      "decimal_separator": ".",
+      "rate": 1.00,
+      "updated_at": "2017-11-13T13:20:50",
+      "frequency": 1,
+      "extra_perc": 1.00,
+      "precision_digit": 2,
+      "to_greater": false
+    },
+    {
+      "_id": 2,
+      "__service": {
+        "created": "2017-01-01 00:00:01",
+        "updated": "2017-01-01 00:00:01"
+      },
+      "number": 3,
+      "currency_name": "EUR",
+      "code": "eur",
+      "iso": 978,
+      "symbol": "&euro;",
+      "decimal_separator": ",",
+      "rate": 1.17,
+      "updated_at": "2017-11-13T13:20:50",
+      "frequency": 1,
+      "extra_perc": 1.00,
+      "precision_digit": 2,
+      "to_greater": false
+    },
+    {
+      "_id": 3,
+      "__service": {
+        "created": "2017-01-01 00:00:01",
+        "updated": "2017-01-01 00:00:01"
+      },
+      "number": 4,
+      "currency_name": "USD",
+      "code": "usd",
+      "iso": 840,
+      "symbol": "$",
+      "decimal_separator": ".",
+      "rate": 1.28,
+      "updated_at": "2017-11-13T13:20:50",
+      "frequency": 1,
+      "extra_perc": 1.00,
+      "precision_digit": 2,
+      "to_greater": false
+    },
+    {
+      "_id": 4,
+      "__service": {
+        "created": "2017-01-01 00:00:01",
+        "updated": "2017-01-01 00:00:01"
+      },
+      "number": 6,
+      "currency_name": "AUD",
+      "code": "aud",
+      "iso": 36,
+      "symbol": "$",
+      "decimal_separator": ".",
+      "rate": 1.67,
+      "updated_at": "2017-11-13T13:20:50",
+      "frequency": 1,
+      "extra_perc": 1.00,
+      "precision_digit": 2,
+      "to_greater": false
+    },
+    {
+      "_id": 5,
+      "__service": {
+        "created": "2017-01-01 00:00:01",
+        "updated": "2017-01-01 00:00:01"
+      },
+      "number": 7,
+      "currency_name": "CAD",
+      "code": "cad",
+      "iso": 124,
+      "symbol": "$",
+      "decimal_separator": ".",
+      "rate": 1.69,
+      "updated_at": "2017-11-13T13:20:50",
+      "frequency": 1,
+      "extra_perc": 1.00,
+      "precision_digit": 2,
+      "to_greater": false
+    },
+    {
+      "_id": 6,
+      "__service": {
+        "created": "2017-01-01 00:00:01",
+        "updated": "2017-01-01 00:00:01"
+      },
+      "number": 10,
+      "currency_name": "NZD",
+      "code": "nzd",
+      "iso": null,
+      "symbol": "$",
+      "decimal_separator": ".",
+      "rate": 1.78,
+      "updated_at": "2017-11-13T13:20:50",
+      "frequency": 1,
+      "extra_perc": 1.00,
+      "precision_digit": 2,
+      "to_greater": false
+    },
+    {
+      "_id": 7,
+      "__service": {
+        "created": "2017-01-01 00:00:01",
+        "updated": "2017-01-01 00:00:01"
+      },
+      "number": 11,
+      "currency_name": "CNY",
+      "code": "cny",
+      "iso": 156,
+      "symbol": "¥",
+      "decimal_separator": ".",
+      "rate": 8.69,
+      "updated_at": "2017-11-13T13:20:50",
+      "frequency": 1,
+      "extra_perc": 1.00,
+      "precision_digit": 2,
+      "to_greater": false
+    },
+    {
+      "_id": 8,
+      "__service": {
+        "created": "2017-01-01 00:00:01",
+        "updated": "2017-01-01 00:00:01"
+      },
+      "number": 8,
+      "currency_name": "UAH",
+      "code": "uah",
+      "iso": 980,
+      "symbol": "₴",
+      "decimal_separator": ".",
+      "rate": 33.47,
+      "updated_at": "2017-11-13T13:20:50",
+      "frequency": 1,
+      "extra_perc": 1.00,
+      "precision_digit": 2,
+      "to_greater": false
+    },
+    {
+      "_id": 9,
+      "__service": {
+        "created": "2017-01-01 00:00:01",
+        "updated": "2017-01-01 00:00:01"
+      },
+      "number": 9,
+      "currency_name": "RUB",
+      "code": "rub",
+      "iso": 810,
+      "symbol": "р.",
+      "decimal_separator": ".",
+      "rate": 80.44,
+      "updated_at": "2017-11-13T13:20:50",
+      "frequency": 1,
+      "extra_perc": 1.00,
+      "precision_digit": 2,
+      "to_greater": false
+    },
+    {
+      "_id": 10,
+      "__service": {
+        "created": "2017-01-01 00:00:01",
+        "updated": "2017-01-01 00:00:01"
+      },
+      "number": 5,
+      "currency_name": "JPY",
+      "code": "jpy",
+      "iso": 392,
+      "symbol": "&yen;",
+      "decimal_separator": ".",
+      "rate": 133.05,
+      "updated_at": "2017-11-13T13:20:50",
+      "frequency": 1,
+      "extra_perc": 1.00,
+      "precision_digit": 2,
+      "to_greater": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "aaData": [
+    {
+      "id": "1",
+      "country": "USA",
+      "weight_from": "1",
+      "weight_to": "1000",
+      "price": "2"
+    },
+    {
+      "id": "1",
+      "country": "UK",
+      "weight_from": "1",
+      "weight_to": "1000",
+      "price": "4"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "key": "en",
+        "alt": "United States",
+        "title": "English (US)",
+        "_group_id": "56a9da979a0bf84c09c316ca"
+    },
+    {
+        "key": "fr",
+        "alt": "France",
+        "title": "Français",
+        "_group_id": ""
+    },
+    {
+        "key": "es",
+        "alt": "Spanish",
+        "title": "Español",
+        "_group_id": "56a9da979a0bf84c09c31778"
+    },
+    {
+        "key": "de",
+        "alt": "German",
+        "title": "Deutsch",
+        "_group_id": "56a9da979a0bf84c09c316d6"
+    },
+    {
+        "key": "cn",
+        "alt": "China",
+        "title": "中文",
+        "_group_id": "56a9da979a0bf84c09c31777"
+    },
+    {
+        "key": "pt",
+        "alt": "Portugal",
+        "title": "Portugal",
+        "_group_id": "56a9da979a0bf84c09c31779"
+    },
+    {
+        "key": "ru",
+        "alt": "Russia",
+        "title": "Русский язык",
+        "_group_id": "56a9da979a0bf84c09c316d0"
+    },
+    {
+        "key": "kr",
+        "alt": "Korea",
+        "title": "한국어",
+        "_group_id": ""
+    }
+]

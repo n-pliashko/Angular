@@ -1,0 +1,320 @@
+{
+  "items": [
+    {
+      "title": "SS-API",
+      "items": [
+        {
+          "title": "Import Statistic",
+          "collection_name": "items",
+          "icon": "fa fa-lg fa-fw fa-upload",
+          "route": "/items/upload"
+        },
+        {
+          "title": "Items Info",
+          "collection_name": "items",
+          "icon": "fa fa-lg fa-fw fa-info",
+          "route": "/items/info"
+        },
+        {
+          "title": "Items Description",
+          "icon": "fa fa-lg fa-fw fa-info",
+          "collection_name": "items_infos",
+          "route": "/items/descriptions"
+        },
+        {
+          "title": "Images Upload",
+          "icon": "fa fa-lg fa-fw fa-cloud-upload",
+          "collection_name": "item_images",
+          "items": [
+            {
+              "title": "Origin",
+              "route": "/items/images/origin",
+              "icon": "fa fa-lg fa-fw fa-file-picture-o"
+            },
+            {
+              "title": "360 View",
+              "route": "/items/images/view360",
+              "icon": "fa fa-lg fa-fw fa-repeat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Translations",
+      "collection_name": "gettexts",
+      "icon": "fa fa-lg fa-fw fa-table",
+      "items": [
+        {
+          "title": "! Calculated words !",
+          "route": "/translations/calc_words"
+        },
+        {
+          "title": "Gettexts",
+          "route": "/translations/gettexts"
+        },
+        {
+          "title": "Designers",
+          "route": "/translations/designers"
+        },
+        {
+          "title": "Tints",
+          "route": "/translations/tints"
+        },
+        {
+          "title": "Tint categories",
+          "route": "/translations/tint_cats"
+        },
+        {
+          "title": "Pages",
+          "route": "/translations/pages"
+        },
+        {
+          "title": "Page categories",
+          "route": "/translations/page_cats"
+        },
+        {
+          "title": "Lens category",
+          "route": "/translations/len_cats"
+        },
+        {
+          "title": "Categories",
+          "route": "/translations/cats"
+        },
+        {
+          "title": "Category groups",
+          "route": "/translations/category_groups"
+        },
+        {
+          "title": "Omnis statuses",
+          "route": "/translations/omnis_statuses"
+        },
+        {
+          "title": "Tabs",
+          "route": "/translations/tabs"
+        },
+        {
+          "title": "User notifications",
+          "route": "/translations/user_notifications_msg"
+        },
+        {
+          "title": "Coatings",
+          "route": "/translations/coatings"
+        },
+        {
+          "title": "Colours",
+          "route": "/translations/colours"
+        },
+        {
+          "title": "Countries",
+          "route": "/translations/countries"
+        },
+        {
+          "title": "Delivery methods",
+          "route": "/translations/delivery_methods"
+        },
+        {
+          "title": "Frames",
+          "route": "/translations/frames"
+        },
+        {
+          "title": "Lenses",
+          "route": "/translations/lenses"
+        },
+        {
+          "title": "Payment systems",
+          "route": "/translations/payment_systems"
+        },
+        {
+          "title": "Prescription used",
+          "route": "/translations/presc_use"
+        },
+        {
+          "title": "Prescription used categories",
+          "route": "/translations/presc_use_cats"
+        },
+        {
+          "title": "Metadata",
+          "route": "/translations/metadata"
+        }
+      ]
+    },
+    {
+      "title": "Payment Systems",
+      "icon": "fa fa-lg fa-fw fa-table",
+      "items": [
+        {
+          "title": "Payments",
+          "collection_name": "payments",
+          "route": "/payments/payments"
+        },
+        {
+          "title": "Orders",
+          "collection_name": "orders",
+          "route": "/orders"
+        },
+        {
+          "title": "Users",
+          "collection_name": "users",
+          "route": "/users"
+        },
+        {
+          "title": "Profiles",
+          "collection_name": "profiles",
+          "route": "/profiles"
+        },
+        {
+          "title": "Currencies",
+          "collection_name": "currencies",
+          "route": "/currencies"
+        }
+      ]
+    },
+    {
+      "title": "Promo Codes",
+      "collection_name": "promos",
+      "icon": "fa fa-lg fa-fw fa-table",
+      "items": [
+        {
+          "title": "FREE Delivery",
+          "route": "/promo/free"
+        },
+        {
+          "title": "FREE Lens",
+          "route": "/promo/lens"
+        },
+        {
+          "title": "FREE Tints",
+          "route": "/promo/tints"
+        },
+        {
+          "title": "Two For One",
+          "route": "/promo/241"
+        },
+        {
+          "title": "Buy one, get discount on another",
+          "route": "/promo/brand"
+        },
+        {
+          "title": "Combine",
+          "route": "/promo/combine"
+        },
+        {
+          "title": "Weekly deals",
+          "route": "/promo/weekly"
+        },
+        {
+          "title": "Active",
+          "route": "/promo/active"
+        },
+        {
+          "title": "Not Active",
+          "route": "/promo/notactive"
+        },
+        {
+          "title": "Closed",
+          "route": "/promo/closed"
+        },
+        {
+          "title": "Clearance Items",
+          "route": "/promo/items"
+        }
+      ]
+    },
+    {
+      "title": "Vat",
+      "icon": "fa fa-lg fa-fw fa-table",
+      "route": "/vat"
+    },
+    {
+      "title": "Site",
+      "icon": "fa fa-lg fa-fw fa-desktop",
+      "items": [
+        {
+          "title": "Content",
+          "icon": "fa fa-lg fa-fw fa-list-ul",
+          "items": [
+            {
+              "title": "Brand Description",
+              "collection_name": "designers",
+              "route": "/content/brand-page"
+            }
+          ]
+        },
+        {
+          "title": "Settings",
+          "icon": "fa fa-lg fa-fw fa-cogs",
+          "items": [
+            {
+              "title": "Routes",
+              "collection_name": "routes",
+              "route": "/site/routes"
+            },
+            {
+              "title": "Catalogue",
+              "collection_name": "catalogues",
+              "route": "/site/catalogue"
+            },
+            {
+              "title": "Vue Components",
+              "collection_name": "components",
+              "route": "/site/components"
+            },
+            {
+              "title": "Filter Dependencies",
+              "collection_name": "filters",
+              "route": "/site/filters"
+            },
+            {
+              "title": "Main Menu",
+              "collection_name": "menus",
+              "route": "/site/menu"
+            },
+            {
+              "title": "Country Restrictions",
+              "collection_name": "country_restrictions",
+              "route": "/site/country-restrictions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Delivery",
+      "collection_name": "deliveries",
+      "icon": "fa fa-lg fa-fw fa-table",
+      "items": [
+        {
+          "title": "Delivery Methods",
+          "route": "/delivery/delivery-meth"
+        }
+      ]
+    },
+    {
+      "title": "System Management",
+      "icon": "fa fa-lg fa-fw fa-wrench",
+      "items": [
+        {
+          "title": "Trash",
+          "collection_name": "trashes",
+          "route": "system/trash"
+        },
+        {
+          "title": "Users",
+          "collection_name": "users",
+          "route": "system/users"
+        },
+        {
+          "title": "Managers",
+          "collection_name": "managers",
+          "route": "system/managers"
+        },
+        {
+          "title": "Access",
+          "collection_name": "access_groups",
+          "route": "system/access"
+        }
+      ]
+    }
+  ]
+}

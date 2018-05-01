@@ -1,0 +1,22 @@
+{
+  "number": 1,
+  "name": "FREE delivery",
+  "rule": [],
+  "date_start": "2018-03-02",
+  "date_end": "2018-03-09",
+  "amount": 100,
+  "perc": true,
+  "sum": true,
+  "codes": [],
+  "active": true,
+  "domains": [
+    "TestSSv4 (new.ajax.selectspecs.com)",
+    "SelectSpecs.com (selectspecs.com)",
+    "SelectSpecs AU (au.selectspecs.com)",
+    "SelectSpecs CA (ca.selectspecs.com)",
+    "SelectSpecs DE (de.selectspecs.com)",
+    "SelectSpecs.com Store (storedis001.selectspecs.com)",
+    "SelectSpecs.com Store (storegen001.selectspecs.com)"
+  ],
+  "target": "delivery"
+}

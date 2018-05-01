@@ -1,0 +1,33 @@
+.fleft {
+    float: left;
+}
+
+div.dataTables_filter {
+    width: inherit;
+    float: left!important;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+
+.normal-word-wrap {
+    width: 10%;
+}
+
+.dt-border-bottom {
+    border-bottom: dotted 1px;
+}
+
+.loader {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    z-index: 9999;
+    background: url('../../assets/img/page-loader.gif') 50% 40% no-repeat;
+}
+
+.bold {
+    font-weight: bold;
+}

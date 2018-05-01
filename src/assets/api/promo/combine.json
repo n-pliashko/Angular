@@ -1,0 +1,66 @@
+{
+  "recordsTotal": 7,
+  "recordsFiltered": 7,
+  "data": [
+    {
+      "_id": 1,
+      "__service": {
+        "created": "2000-01-01 00:00:01",
+        "updated": "2000-01-01 00:00:01"
+      },
+      "number": 1,
+      "code": "test code 1",
+      "actions": [
+        "50% off ray-ban",
+        "FREE delivery",
+        "FREE tints"
+      ],
+      "active": true
+    },
+    {
+      "_id": 2,
+      "__service": {
+        "created": "2000-01-01 00:00:01",
+        "updated": "2000-01-01 00:00:01"
+      },
+      "number": 1,
+      "code": "test code 2",
+      "actions": [
+        "action 1",
+        "action 2",
+        "action 3"
+      ],
+      "active": true
+    },
+    {
+      "_id": 3,
+      "__service": {
+        "created": "2000-01-01 00:00:01",
+        "updated": "2000-01-01 00:00:01"
+      },
+      "number": 1,
+      "code": "test code 3",
+      "actions": [
+        "action 4",
+        "action 5",
+        "action 6"
+      ],
+      "active": true
+    },
+    {
+      "_id": 4,
+      "__service": {
+        "created": "2000-01-01 00:00:01",
+        "updated": "2000-01-01 00:00:01"
+      },
+      "number": 1,
+      "code": "test code 4",
+      "actions": [
+        "action 7",
+        "action 8",
+        "action 9"
+      ],
+      "active": false
+    }
+  ]
+}

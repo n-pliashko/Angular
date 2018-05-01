@@ -1,0 +1,147 @@
+{
+  "recordsTotal":7,
+  "recordsFiltered":7,
+  "data":[
+    {
+      "_id": 1,
+      "__service": {
+        "created": "2000-01-01 00:00:01",
+        "updated": "2000-01-01 00:00:01"
+      },
+      "number": 1,
+      "name": "Test promo",
+      "rule": [],
+      "date_start": "2000-01-01 00:00:01",
+      "date_end": "2000-01-01 00:00:02",
+      "amount": 100,
+      "perc": true,
+      "sum": true,
+      "codes": [{"value": "test code", "usages": 1}],
+      "active": true,
+      "domains": [
+        "TestSSv4 (new.ajax.selectspecs.com)",
+        "SelectSpecs.com (selectspecs.com)",
+        "SelectSpecs AU (au.selectspecs.com)",
+        "SelectSpecs CA (ca.selectspecs.com)",
+        "SelectSpecs DE (de.selectspecs.com)",
+        "SelectSpecs.com Store (storedis001.selectspecs.com)",
+        "SelectSpecs.com Store (storegen001.selectspecs.com)"
+      ],
+      "target": "frame"
+    },
+    {
+      "_id": 2,
+      "__service": {
+        "created": "2000-01-01 00:00:01",
+        "updated": "2000-01-01 00:00:01"
+      },
+      "number": 2,
+      "name": "Test promo",
+      "rule": [],
+      "date_start": "2000-01-01 00:00:01",
+      "date_end": "2000-01-01 00:00:02",
+      "amount": 100,
+      "perc": true,
+      "sum": true,
+      "codes": [{"value": "adgf3gsdf44fsdf664fdf2sa", "usages": 1}],
+      "active": true,
+      "domains": [],
+      "target": "frame"
+    },
+    {
+      "_id": 3,
+      "__service": {
+        "created": "2000-01-01 00:00:01",
+        "updated": "2000-01-01 00:00:01"
+      },
+      "number": 3,
+      "name": "Test promo",
+      "rule": [],
+      "date_start": "2000-01-01 00:00:01",
+      "date_end": "2000-01-01 00:00:02",
+      "amount": 100,
+      "perc": true,
+      "sum": true,
+      "codes": [{"value": "some code", "usages": 1}],
+      "active": true,
+      "domains": [],
+      "target": "frame"
+    },
+    {
+      "_id": 4,
+      "__service": {
+        "created": "2000-01-01 00:00:01",
+        "updated": "2000-01-01 00:00:01"
+      },
+      "number": 4,
+      "name": "Test promo",
+      "rule": [],
+      "date_start": "2000-01-01 00:00:01",
+      "date_end": "2000-01-01 00:00:02",
+      "amount": 100,
+      "perc": true,
+      "sum": true,
+      "codes": [{"value": "dummy", "usages": 1}],
+      "active": true,
+      "domains": [],
+      "target": "frame"
+    },
+    {
+      "_id": 5,
+      "__service": {
+        "created": "2000-01-01 00:00:01",
+        "updated": "2000-01-01 00:00:01"
+      },
+      "number": 5,
+      "name": "Test promo",
+      "rule": [],
+      "date_start": "2000-01-01 00:00:01",
+      "date_end": "2000-01-01 00:00:02",
+      "amount": 100,
+      "perc": true,
+      "sum": true,
+      "codes": [{"value": "dummy", "usages": 1}],
+      "active": true,
+      "domains": [],
+      "target": "frame"
+    },
+    {
+      "_id": 6,
+      "__service": {
+        "created": "2000-01-01 00:00:01",
+        "updated": "2000-01-01 00:00:01"
+      },
+      "number": 6,
+      "name": "Test promo",
+      "rule": [],
+      "date_start": "2000-01-01 00:00:01",
+      "date_end": "2000-01-01 00:00:02",
+      "amount": 100,
+      "perc": true,
+      "sum": true,
+      "codes": [{"value": "dummy", "usages": 1}],
+      "active": true,
+      "domains": [],
+      "target": "frame"
+    },
+    {
+      "_id": 7,
+      "__service": {
+        "created": "2000-01-01 00:00:01",
+        "updated": "2000-01-01 00:00:01"
+      },
+      "number": 7,
+      "name": "Test promo",
+      "rule": [],
+      "date_start": "2000-01-01 00:00:01",
+      "date_end": "2000-01-01 00:00:02",
+      "amount": 100,
+      "perc": true,
+      "sum": true,
+      "codes": [{"value": "dummy", "usages": 1}],
+      "active": true,
+      "domains": [],
+      "target": "frame"
+    }
+  ]
+}
