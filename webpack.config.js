@@ -8,7 +8,10 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: {
     'polyfills': './src/polyfills.ts',
-    'app': './src/main.ts'
+    'app': './src/main.ts',
+    vendor: [
+      'jquery', 'bootstrap', 'lodash'
+    ]
   },
   output:{
     path: path.resolve(__dirname, 'dist'),     // путь к каталогу выходных файлов - папка public
@@ -65,8 +68,15 @@ module.exports = {
     ),
     new CopyWebpackPlugin([
       {from: './src/assets', to: './assets'}
-
     ]),
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      'window.$': "jquery",
+      jquery: "jquery",
+      "window.jQuery": "jquery",
+      '_': 'lodash',
+      'window._': 'lodash'
+    }),
     new webpack.optimize.CommonsChunkPlugin({
       name: ['app', 'polyfills']
     }),

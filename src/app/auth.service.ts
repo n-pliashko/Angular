@@ -33,9 +33,6 @@ export class AuthService {
     getUserInfo(): Observable<User> {
         console.log('getUser call', this.token);
         if (this.token) {
-            if (this._user) {
-                return Observable.of(this._user);
-            }
             const headers = new HttpHeaders().set('Authorization', this.token);
             return this.http.get(config.token.getInfo, {headers: headers}).map(data => {
                 if (data['error']) {
@@ -43,7 +40,7 @@ export class AuthService {
                     return Observable.throw(data['error']);
                 }
                 let user = {...data['result']['data']};
-                this.getGroupInfo(user._group_id).subscribe(data => user.groupInfo = data);
+                this.getGroupInfo(data['result']['_group_id']).subscribe(data => user.groupInfo = data);
                 this.getAccess().subscribe(data => user.accessInfo = data);
                 this.getAllowedGroups().subscribe(data => user.allowedGroups = data);
                 console.log('getUser:::', user);

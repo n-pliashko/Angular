@@ -35,6 +35,6 @@ const appRoutes: Routes = [
     imports:[BrowserModule, FormsModule, RouterModule.forRoot(appRoutes), HttpClientModule],
     declarations: [AppComponent, LoginComponent, HomeComponent, HeaderComponent, DomainsComponent, MenuComponent, LoaderComponent],
     bootstrap: [AppComponent],
-    providers: [ AuthService, AuthGuard ]
+    providers: [ AuthService, AuthGuard]
 })
 export class AppModule{}
